@@ -19,11 +19,16 @@
         <div
           class="mx-auto mb-4 h-10 w-10 items-center justify-center rounded-full bg-cyan-300 hover:opacity-75"
         >
-          <img
-            class="h-15 w-15 fill-red-700"
-            src="../assets/img/i-facebook.png"
-            alt="facebook"
-          />
+          <a
+            href="https://www.facebook.com/dragon.slayer1010"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="h-15 w-15 fill-red-700"
+              src="../assets/img/i-facebook.png"
+              alt="facebook"
+          /></a>
         </div>
         <div
           class="mx-auto mb-4 h-10 w-10 items-center justify-center rounded-full bg-sky-400 hover:opacity-75"

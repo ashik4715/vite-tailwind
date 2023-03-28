@@ -47,6 +47,11 @@
             to="/privacy-policy"
             >Privacy Policy</router-link
           >
+          <router-link
+            to="/Terms-conditions"
+            class="text-base font-semibold leading-7 text-gray-900 dark:text-white hover:text-emerald-500 dark:hover:text-rose-500"
+            >Terms &amp; Conditions Agreement</router-link
+          >
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           <div class="toggle-button flex space-x-5">
@@ -123,6 +128,11 @@
                   to="/privacy-policy"
                   >Privacy-policy</router-link
                 >
+                <router-link
+                  to="/Terms-conditions"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
+                  >Terms &amp; Conditions Agreement</router-link
+                >
               </div>
               <div class="py-6">
                 <a
@@ -185,6 +195,13 @@
             to="/privacy-policy"
             class="text-lg text-teal-500 hover:text-teal-700"
             >Privacy policy</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            to="/Terms-conditions"
+            class="text-lg text-teal-500 hover:text-teal-700"
+            >Terms &amp; Conditions Agreement</router-link
           >
         </li>
       </ul>

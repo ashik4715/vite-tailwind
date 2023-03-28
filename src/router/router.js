@@ -31,6 +31,11 @@ const routes = [
     name: "Privacy-policy",
     component: () => import("@views/Privacy-policy.vue"),
   },
+  {
+    path: "/terms-conditions",
+    name: "Terms-conditions",
+    component: () => import("@views/Terms-conditions.vue"),
+  },
 ];
 const router = createRouter({
   history: createWebHistory(),
