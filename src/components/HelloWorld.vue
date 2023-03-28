@@ -50,7 +50,7 @@
               class="relative h-80 w-full overflow-hidden rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"
             >
               <img
-                :src="callout.imageSrc"
+                :src="`/images/${callout.imageSrc}`"
                 :alt="callout.imageAlt"
                 class="h-full w-full object-cover object-center"
               />
@@ -130,14 +130,14 @@ const callouts = [
   {
     name: "Intelligent Infrastructure",
     description: "Network Rail UK's Intelligent Infrastructure project",
-    imageSrc: "./src/assets/img/networkrail.jpeg",
+    imageSrc: "networkrail.jpeg",
     imageAlt: "networkrail.jpeg",
     href: "#",
   },
   {
     name: "M25 / London ring road",
     description: "The busiest and most complex motorway in the UK",
-    imageSrc: "./src/assets/img/m25.jpeg",
+    imageSrc: "m25.jpeg",
     imageAlt: "m25.jpeg",
     href: "#",
   },
@@ -145,7 +145,7 @@ const callouts = [
     name: "Dublin Port & Jack Lynch Tunnel",
     description:
       "Improving the performance and safety of these critical pieces of national infrastructure",
-    imageSrc: "./src/assets/img/Dublin-Port-Tunnel.jpeg",
+    imageSrc: "Dublin-Port-Tunnel.jpeg",
     imageAlt: "Dublin-Port-Tunnel.jpeg",
     href: "#",
   },
