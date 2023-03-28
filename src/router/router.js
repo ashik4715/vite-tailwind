@@ -26,6 +26,11 @@ const routes = [
     name: "Projects",
     component: () => import("@views/Projects.vue"),
   },
+  {
+    path: "/privacy-policy",
+    name: "Privacy-policy",
+    component: () => import("@views/Privacy-policy.vue"),
+  },
 ];
 const router = createRouter({
   history: createWebHistory(),

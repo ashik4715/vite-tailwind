@@ -19,7 +19,7 @@
         <div class="flex lg:hidden">
           <button
             type="button"
-            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-800 dark:text-white hover:text-emerald-400"
             @click="mobileMenuOpen = true"
           >
             <span class="sr-only">Open main menu</span>
@@ -28,19 +28,24 @@
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
           <router-link
-            class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
+            class="text-base font-semibold leading-7 text-gray-900 dark:text-white hover:text-emerald-500 dark:hover:text-rose-500"
             to="/about"
             >About</router-link
           >
           <router-link
-            class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
+            class="text-base font-semibold leading-7 text-gray-900 dark:text-white hover:text-emerald-500 dark:hover:text-rose-500"
             to="/contact"
             >Contact</router-link
           >
           <router-link
-            class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
+            class="text-base font-semibold leading-7 text-gray-900 dark:text-white hover:text-emerald-500 dark:hover:text-rose-500"
             to="/projects"
             >Projects</router-link
+          >
+          <router-link
+            class="text-base font-semibold leading-7 text-gray-900 dark:text-white hover:text-emerald-500 dark:hover:text-rose-500"
+            to="/privacy-policy"
+            >Privacy Policy</router-link
           >
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -75,7 +80,7 @@
       >
         <div class="fixed inset-0 z-50" />
         <DialogPanel
-          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white dark:bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
         >
           <div class="flex items-center justify-between">
             <a href="/" class="-m-1.5 p-1.5">
@@ -88,7 +93,7 @@
             </a>
             <button
               type="button"
-              class="-m-2.5 rounded-md p-2.5 text-gray-800"
+              class="-m-2.5 rounded-md p-2.5 text-red-600 hover:text-emerald-500"
               @click="mobileMenuOpen = false"
             >
               <span class="sr-only">Close menu</span>
@@ -99,25 +104,30 @@
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
                 <router-link
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
                   to="/about"
                   >About</router-link
                 >
                 <router-link
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
                   to="/contact"
                   >Contact</router-link
                 >
                 <router-link
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
                   to="/projects"
                   >Projects</router-link
+                >
+                <router-link
+                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
+                  to="/privacy-policy"
+                  >Privacy-policy</router-link
                 >
               </div>
               <div class="py-6">
                 <a
                   href="/login"
-                  class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
                   >Log in</a
                 >
               </div>
@@ -134,6 +144,53 @@
     </div>
     <div v-else><router-view></router-view></div>
   </div>
+  <!-- footer -->
+  <footer class="py-6 px-6 flex justify-between bg-gray-800">
+    <div class="w-2/3 pr-10">
+      <h3 class="mb-5 font-semibold text-gray-400">Footer</h3>
+
+      <p class="text-lg text-gray-500">
+        Lorem ipsum bla bla bla. Lorem ipsum bla bla bla. Lorem ipsum bla bla
+        bla.
+      </p>
+    </div>
+
+    <div class="w-1/3">
+      <h3 class="mb-5 font-semibold text-gray-400">Menu</h3>
+
+      <ul class="space-y-2">
+        <li>
+          <router-link
+            to="/about"
+            class="text-lg text-teal-500 hover:text-teal-700"
+            >About</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            to="/contact"
+            class="text-lg text-teal-500 hover:text-teal-700"
+            >Contact</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            to="/projects"
+            class="text-lg text-teal-500 hover:text-teal-700"
+            >Projects</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            to="/privacy-policy"
+            class="text-lg text-teal-500 hover:text-teal-700"
+            >Privacy policy</router-link
+          >
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- end footer -->
 </template>
 
 <script>

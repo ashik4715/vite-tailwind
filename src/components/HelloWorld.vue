@@ -30,9 +30,9 @@
     <!-- endroute pages -->
 
     <!-- Projects section -->
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
       <div
-        class="mx-auto max-w-2xl py-8 sm:py-20 lg:max-w-none lg:py-8 text-rose-600 dark:text-amber-300"
+        class="mx-auto max-w-2xl py-8 sm:py-20 lg:max-w-none lg:py-8 text-purple-500 dark:text-cyan-300"
       >
         <h2 class="text-2xl font-bold text-center no-underline py-6">
           Projects
@@ -55,7 +55,7 @@
                 class="h-full w-full object-cover object-center"
               />
             </div>
-            <h3 class="mt-6 text-lg text-blue-600 dark:text-cyan-300">
+            <h3 class="mt-6 text-lg text-purple-600 dark:text-cyan-300">
               <a :href="callout.href">
                 <span class="absolute inset-0" />
                 {{ callout.name }}
@@ -70,116 +70,7 @@
         </div>
       </div>
     </div>
-
     <!-- End Projects section -->
-    <!-- Image with tiles -->
-    <div class="relative overflow-hidden">
-      <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-        <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-          <div class="sm:max-w-lg">
-            <h1
-              class="font text-4xl font-bold tracking-tight text-gray-900 dark:text-yellow-300 sm:text-6xl"
-            >
-              Summer styles are finally here
-            </h1>
-            <p class="mt-4 text-xl text-gray-500 dark:text-lime-500">
-              This year, our new summer collection will shelter you from the
-              harsh elements of a world that doesn't care if you live or die.
-            </p>
-          </div>
-          <div>
-            <div class="mt-10">
-              <!-- Decorative image grid -->
-              <div
-                aria-hidden="true"
-                class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
-              >
-                <div
-                  class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8"
-                >
-                  <div class="flex items-center space-x-6 lg:space-x-8">
-                    <div
-                      class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
-                    >
-                      <div
-                        class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100"
-                      >
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
-                    >
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8"
-                    >
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
-                          alt=""
-                          class="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <a
-                href="/"
-                class="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
-                >Shop Collection</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Image with tiles  -->
-
-    <!-- footer -->
-    <div class="footer"></div>
-    <!-- end footer -->
   </div>
 </template>
 <script>
@@ -237,29 +128,25 @@ export default {
 <script setup>
 const callouts = [
   {
-    name: "Desk and Office",
-    description: "Work from home accessories",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
-    imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+    name: "Intelligent Infrastructure",
+    description: "Network Rail UK's Intelligent Infrastructure project",
+    imageSrc: "./src/assets/img/networkrail.jpeg",
+    imageAlt: "networkrail.jpeg",
     href: "#",
   },
   {
-    name: "Self-Improvement",
-    description: "Journals and note-taking",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
-    imageAlt:
-      "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
+    name: "M25 / London ring road",
+    description: "The busiest and most complex motorway in the UK",
+    imageSrc: "./src/assets/img/m25.jpeg",
+    imageAlt: "m25.jpeg",
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    name: "Dublin Port & Jack Lynch Tunnel",
+    description:
+      "Improving the performance and safety of these critical pieces of national infrastructure",
+    imageSrc: "./src/assets/img/Dublin-Port-Tunnel.jpeg",
+    imageAlt: "Dublin-Port-Tunnel.jpeg",
     href: "#",
   },
 ];
