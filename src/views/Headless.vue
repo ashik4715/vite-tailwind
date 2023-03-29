@@ -134,7 +134,7 @@
   </div>
 
   <div class="md:container-lg md:mx-auto bg-no-repeat">
-    <div v-if="showRouterView == false">
+    <div v-if="false">
       <HelloWorld />
     </div>
     <div v-else><router-view></router-view></div>
@@ -303,6 +303,7 @@ const mobileMenuOpen = ref(false);
 nav {
   z-index: 10;
 }
+
 nav.scrolled {
   border-bottom: 0px;
 }
