@@ -1,106 +1,88 @@
 <template lang="">
-  <div class="md:container text-center p-5 m-20">
-    <h1 class="text-amber-400">About Me</h1>
-    <p class="pt-10 sm:pt-10">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-      accusantium nihil suscipit in. Eaque unde, eveniet velit tenetur ipsa
-      quisquam, consequatur quas natus nostrum sint accusamus quibusdam!
-      Debitis, beatae quisquam.
+  <div class="md:container pt-10 m-20">
+    <h2
+      class="text-4xl font-bold text-center no-underline text-purple-600 dark:text-cyan-300"
+    >
+      About Me
+    </h2>
+    <p class="pt-10 pb-5 sm:pt-10 text-lg text-slate-800 dark:text-white">
+      Hello and welcome to my personal portfolio website! My name is Mohammed
+      Aydid Hasan, and I am a dedicated and highly skilled professional with a
+      passion for computer science, artificial intelligence, and cyber security.
+      My unique educational background and diverse work experience have given me
+      the knowledge and tools necessary to excel in the world of technology.
     </p>
-
-    <!-- lazy COunter -->
-    <div class="py-8 sm:py-10">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl
-          class="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-3"
-        >
-          <div
-            v-for="stat in stats"
-            :key="stat.id"
-            class="mx-auto flex max-w-xs flex-col gap-y-4"
-          >
-            <dt class="text-base leading-7 dark:text-gray-100 text-gray-600">
-              {{ stat.name }}
-            </dt>
-            <LazyCountNumber
-              class="order-first text-3xl font-semibold tracking-tight dark:text-gray-100 text-gray-900 sm:text-5xl"
-              :end-number="parseInt(stat.value.replace(/,/g, ''))"
-            />
-          </div>
-        </dl>
-      </div>
-    </div>
-    <!-- end lazy COunter -->
-
-    <!-- trusted teams -->
-    <div class="bg-gray-100 py-8 sm:py-8 rounded-md">
-      <div class="mx-auto max-w-7xl px-2 lg:px-2">
-        <h2
-          class="text-center text-lg font-semibold leading-8 dark:text-gray-700 text-gray-900"
-        >
-          Trusted by the world’s most innovative teams
-        </h2>
-        <div
-          class="mx-auto mt-4 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
-        >
-          <img
-            class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-            alt="Transistor"
-            width="158"
-            height="48"
-          />
-          <img
-            class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-            alt="Reform"
-            width="158"
-            height="48"
-          />
-          <img
-            class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-            alt="Tuple"
-            width="158"
-            height="48"
-          />
-          <img
-            class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-            alt="SavvyCal"
-            width="158"
-            height="48"
-          />
-          <img
-            class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-            alt="Statamic"
-            width="158"
-            height="48"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- end trusted teams -->
+    <h2
+      class="text-xl text-slate-900 dark:text-white underline decoration-emerald-500"
+    >
+      Education:
+    </h2>
+    <p class="py-3 sm:py-3 text-lg text-slate-800 dark:text-white">
+      I earned my BSc in Computer Science, specializing in Artificial
+      Intelligence, from the University of Hertfordshire. This prestigious
+      program equipped me with the foundational knowledge and skills needed to
+      succeed in the rapidly evolving field of AI. During my time at university,
+      I had the opportunity to undertake an industrial placement, further
+      enhancing my understanding of real-world applications of computer science.
+    </p>
+    <p class="py-3 sm:py-3 text-lg text-slate-800 dark:text-white">
+      In addition to my primary degree, I completed a summer program in cyber
+      security at Nanyang Technological University in Singapore. This enriching
+      experience expanded my expertise in network and information security,
+      providing me with valuable insights into the world of cyber threats and
+      defense mechanisms.
+    </p>
+    <h2
+      class="text-xl text-slate-900 dark:text-white underline decoration-emerald-500"
+    >
+      Career:
+    </h2>
+    <p class="py-3 sm:py-3 text-lg text-slate-800 dark:text-white">
+      My professional journey began in 2019 as an IT Intern at Parker Hannifin
+      Corporation in Hemel Hempstead, where I gained hands-on experience in
+      information technology and learned to apply my academic knowledge in a
+      corporate environment. This experience prepared me for my next role as a
+      Business Intelligence Support Analyst at Graphnet Health, UK, where I
+      worked from September 2021 to December 2021. In this position, I honed my
+      skills in data analysis and reporting, providing critical support to the
+      company's business intelligence initiatives.
+    </p>
+    <p class="py-3 sm:py-3 text-lg text-slate-800 dark:text-white">
+      Since January 2022, I have been working as a Graduate Consultant at Egis
+      Group in London, UK. During my time with the company, I have tackled
+      various projects and challenges, demonstrating my adaptability and strong
+      problem-solving skills. As of February 1st, I have been on a short
+      delegation with Egis Group in Dublin, Ireland, where I continue to
+      contribute my expertise and grow professionally.
+    </p>
+    <p class="py-3 sm:py-3 text-lg text-slate-800 dark:text-white">
+      As you browse through my portfolio, you will discover the wide range of
+      projects I have been involved in, showcasing my passion for technology and
+      my commitment to excellence. I am always eager to learn and take on new
+      challenges, and I look forward to the opportunities that lie ahead.
+    </p>
+    <p class="py-3 sm:py-3 text-lg text-slate-800 dark:text-white">
+      Thank you for visiting my website, and please feel free to reach out if
+      you have any questions or would like to discuss potential collaborations.
+    </p>
   </div>
 </template>
 <script>
-import LazyCountNumber from "@src/components/LazyCountNumber.vue";
+// import LazyCountNumber from "@src/components/LazyCountNumber.vue";
 export default {
   name: "About",
-  components: {
-    LazyCountNumber,
-  },
-  data() {
-    return {
-      stats: [
-        { id: 1, name: "Happy Clients", value: "110" },
-        { id: 2, name: "Projects Completed", value: "220" },
-        { id: 3, name: "Hours of Support", value: "15000" },
-      ],
-    };
-  },
+  // components: {
+  //   LazyCountNumber,
+  // },
+  // data() {
+  //   return {
+  //     stats: [
+  //       { id: 1, name: "Happy Clients", value: "110" },
+  //       { id: 2, name: "Projects Completed", value: "220" },
+  //       { id: 3, name: "Hours of Support", value: "15000" },
+  //     ],
+  //   };
+  // },
 };
 </script>
 <style scoped></style>
