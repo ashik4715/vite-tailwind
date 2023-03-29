@@ -28,6 +28,40 @@
               class="text-base font-semibold text-gray-500 dark:text-slate-100"
             >
               <div v-html="destination.description"></div>
+              <!-- I worked as an Assistant Project Manager at Network Rail UK as
+              part of the Intelligent Infrastructure project. My role involved
+              supporting the delivery of cutting-edge technologies to improve
+              the performance and efficiency of the railway network. During my
+              time at Network Rail UK, I was responsible for:
+              <ul class="px-3 py-6 list-disc list-inside">
+                <li>
+                  Supporting the Project Manager in the delivery of project
+                  objectives, including scope, schedule, budget, and quality.
+                </li>
+                <li>
+                  Contributing to the development of project plans, risk
+                  assessments, and other project documentation.
+                </li>
+                <li>
+                  Coordinating project activities across multiple teams and
+                  stakeholders, both internal and external to Network Rail UK.
+                </li>
+                <li>
+                  Providing regular project status updates to senior management
+                  and stakeholders, including progress reports and risk
+                  assessments.
+                </li>
+              </ul>
+              Through my work at Network Rail UK, I gained valuable experience
+              in project management, stakeholder engagement, and the
+              implementation of innovative technologies in a complex and dynamic
+              environment. I also developed a deep understanding of the
+              challenges and opportunities involved in delivering major
+              infrastructure projects, particularly those related to the
+              transportation sector. This experience has given me a unique
+              perspective on the importance of effective project management and
+              collaboration in delivering successful outcomes for both the
+              organization and the wider community. -->
             </div>
           </div>
         </div>
