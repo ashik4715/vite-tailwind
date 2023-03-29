@@ -239,7 +239,10 @@
         </a>
       </div>
       <p class="mt-8 text-lg leading-6 text-center text-gray-400">
-        © 2021 SomeCompany, Inc. All rights reserved.
+        © 2023
+        <router-link to="/" class="text-cyan-400 hover:text-purple-500"
+          >aydidhasan.com</router-link
+        >. All rights reserved.
       </p>
     </div>
   </footer>

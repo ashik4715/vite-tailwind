@@ -12,12 +12,12 @@
         />
       </div>
       <div
-        class="col-span-3 text-center pt-6 text-gray-400 relative overflow-hidden rounded-lg hover:opacity-75"
+        class="col-span-3 text-center pt-6 text-gray-400 relative overflow-hidden rounded-lg"
       >
         <div class="grid h-screen place-items-center mx-auto p-8">
-          <h1 class="text-lime-600 py-5 no-underline">
+          <h1 class="text-cyan-400 py-5 no-underline">
             I'm a
-            <span class="text-amber-400">{{ typeValue }}</span>
+            <span class="text-fuchsia-400">{{ typeValue }}</span>
             <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
           </h1>
         </div>
@@ -33,9 +33,9 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      typeArray: ["Graduate Consultant", "Data Analyst", "Photographer"],
-      typingSpeed: 100,
-      erasingSpeed: 150,
+      typeArray: ["Graduate Consultant (Asset Management)", "Data Analyst"],
+      typingSpeed: 60,
+      erasingSpeed: 70,
       newTextDelay: 1500,
       typeArrayIndex: 0,
       charIndex: 0,
