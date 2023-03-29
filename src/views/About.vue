@@ -68,21 +68,8 @@
   </div>
 </template>
 <script>
-// import LazyCountNumber from "@src/components/LazyCountNumber.vue";
 export default {
   name: "About",
-  // components: {
-  //   LazyCountNumber,
-  // },
-  // data() {
-  //   return {
-  //     stats: [
-  //       { id: 1, name: "Happy Clients", value: "110" },
-  //       { id: 2, name: "Projects Completed", value: "220" },
-  //       { id: 3, name: "Hours of Support", value: "15000" },
-  //     ],
-  //   };
-  // },
 };
 </script>
 <style scoped></style>

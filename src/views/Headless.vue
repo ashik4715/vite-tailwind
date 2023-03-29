@@ -303,7 +303,6 @@ const mobileMenuOpen = ref(false);
 nav {
   z-index: 10;
 }
-
 nav.scrolled {
   border-bottom: 0px;
 }
