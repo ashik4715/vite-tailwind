@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="md:container text-center p-5 m-20">
+  <div class="md:container text-center p-10 m-10">
     <!-- Projects section -->
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div

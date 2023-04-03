@@ -13,6 +13,7 @@
     "@headlessui/vue": "^1.7.12",
     "@heroicons/vue": "^2.0.16",
     "@vueuse/core": "^9.13.0",
+    "@vueuse/head": "^1.1.23",
     "vue": "^3.2.47",
     "vue-router": "4"
   },

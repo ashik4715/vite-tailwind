@@ -1,52 +1,63 @@
 <template lang="">
-  <div class="md:container text-center pt-10 m-24">
+  <div class="md:container text-center pt-10 m-20">
     <h2
       class="text-4xl font-bold text-center no-underline text-purple-600 dark:text-cyan-300"
     >
       Contact
     </h2>
-    <div class="grid row-auto hover:row-span-3 grid-cols-6 gap-3 p-6 m-5">
+    <div
+      class="grid grid-flow-row auto-rows-max hover:row-span-3 grid-cols-6 gap-3 p-6 m-5 text-black dark:text-gray-100"
+    >
       <div
         class="col-span-3 text-center relative h-full w-full overflow-hidden rounded-lg hover:opacity-75"
       >
         <div class="mx-auto mb-6 flex items-center justify-center">
-          <p class="text-2xl text-bold text-black dark:text-gray-100">
-            Get connected with me
-          </p>
+          <p class="text-2xl text-bold">Get connected with me</p>
         </div>
       </div>
       <div
-        class="col-span-auto text-center inline-flex relative h-full w-full overflow-hidden rounded-lg"
+        class="col-span-3 text-center justify-evenly inline-flex relative h-full w-full overflow-hidden rounded-lg"
       >
-        <div
-          class="mx-auto mb-4 h-10 w-10 items-center justify-center rounded-full bg-blue-500 hover:opacity-75"
-        >
+        <div class="mb-4 items-center hover:opacity-75">
           <a
             href="https://www.facebook.com/dragon.slayer1010"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              class="h-15 w-15 fill-red-700"
-              src="../assets/img/i-facebook.png"
-              alt="facebook"
-          /></a>
+            <svg
+              class="w-10 h-10"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
         </div>
-        <div
-          class="mx-auto mb-4 h-10 w-10 items-center justify-center rounded-full bg-sky-400 hover:opacity-75"
-        >
+        <div class="mb-4 items-center hover:opacity-75">
           <a
             href="https://www.linkedin.com/in/mohammed-aydid-hasan/"
             target="_blank"
             rel="noopener noreferrer"
-            ><img
-              class="h-15 w-15 fill-red-700"
-              src="../assets/img/i-linkedin.png"
-              alt="linkedin"
-          /></a>
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-10 h-10"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"
+              />
+            </svg>
+          </a>
         </div>
         <div
-          class="mx-auto mb-4 h-10 w-10 items-center justify-center rounded-full bg-inherit hover:opacity-75"
+          class="mb-4 h-10 w-10 items-center rounded-full bg-inherit hover:opacity-75"
         >
           <a
             href="https://github.com/MohammedAydid"

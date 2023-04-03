@@ -1,10 +1,10 @@
 <template lang="">
   <div
-    class="md:container p-5 m-20 justify-self-auto text-gray-900 dark:text-white"
+    class="md:container p-10 m-10 justify-evenly text-gray-900 dark:text-white"
     data-aos="fade"
   >
     <h3 class="p-5 m-1 text-center no-underline">Privacy Policy</h3>
-    <div class="mt-5">
+    <div class="mt-5 justify-items-center">
       <p><strong>1. Protection of your information</strong></p>
       <div class="mt-4">
         <p>

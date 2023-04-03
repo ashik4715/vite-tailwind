@@ -60,7 +60,7 @@
               >
             </label>
             <a
-              href="/login"
+              href="/"
               class="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
               >Log in <span aria-hidden="true">&rarr;</span></a
             >
@@ -95,6 +95,11 @@
               <div class="space-y-2 py-6">
                 <router-link
                   class="-mx-3 block rounded-lg py-2 px-3 text-lg font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
+                  to="/"
+                  >Home</router-link
+                >
+                <router-link
+                  class="-mx-3 block rounded-lg py-2 px-3 text-lg font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
                   to="/about"
                   >About</router-link
                 >
@@ -121,7 +126,7 @@
               </div>
               <div class="py-6">
                 <a
-                  href="/login"
+                  href="/"
                   class="-mx-3 block rounded-lg py-2.5 px-3 text-lg font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
                   >Log in</a
                 >
