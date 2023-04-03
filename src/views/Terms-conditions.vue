@@ -4,7 +4,7 @@
     data-aos="fade"
   >
     <h3 class="p-5 m-1 text-center no-underline">
-      Terms and Conditions Agreement
+      Terms &amp; Conditions Agreement
     </h3>
     <div class="mt-5">
       <p class="justify-items-center">
@@ -131,7 +131,29 @@
   </div>
 </template>
 <script>
+import { useHead } from "unhead";
 export default {
   name: "Terms-conditions",
+  setup() {
+    useHead({
+      title: "Terms & Conditions Page",
+      meta: [
+        {
+          name: "title",
+          content: "Terms & Conditions Page | Aydid Hasan",
+        },
+        {
+          name: "description",
+          content: "My Terms & Conditions Page.",
+        },
+        {
+          property: "og:description",
+          content: "My Terms & Conditions Page.",
+        },
+        { property: "og:image", content: `summary_large_image` },
+        { name: "twitter:card", content: `summary_large_image` },
+      ],
+    });
+  },
 };
 </script>

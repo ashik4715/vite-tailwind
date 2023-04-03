@@ -132,7 +132,29 @@
   </div>
 </template>
 <script>
+import { useHead } from "unhead";
 export default {
   name: "Privacy-policy",
+  setup() {
+    useHead({
+      title: "Privacy policy | Aydid Hasan",
+      meta: [
+        {
+          name: "title",
+          content: "Privacy policy | Aydid Hasan",
+        },
+        {
+          name: "description",
+          content: "Privacy policy Page of Aydid Hasan's Portfolio.",
+        },
+        {
+          property: "og:description",
+          content: "Privacy policy Page of Aydid Hasan's Portfolio.",
+        },
+        { property: "og:image", content: `summary_large_image` },
+        { name: "twitter:card", content: `summary_large_image` },
+      ],
+    });
+  },
 };
 </script>

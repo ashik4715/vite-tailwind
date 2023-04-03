@@ -67,9 +67,32 @@
     </p>
   </div>
 </template>
+
 <script>
+import { useHead } from "unhead";
 export default {
   name: "About",
+  setup() {
+    useHead({
+      title: "About | Aydid Hasan",
+      meta: [
+        {
+          name: "title",
+          content: "About | Aydid Hasan",
+        },
+        {
+          name: "description",
+          content: "About Page of Aydid Hasan's Portfolio.",
+        },
+        {
+          property: "og:description",
+          content: "About Page of Aydid Hasan's Portfolio.",
+        },
+        { property: "og:image", content: `summary_large_image` },
+        { name: "twitter:card", content: `summary_large_image` },
+      ],
+    });
+  },
 };
 </script>
 <style scoped></style>

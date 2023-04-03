@@ -48,12 +48,35 @@
 </template>
 <script>
 import sourceData from "@src/data/data.json";
+import { useHead } from "unhead";
+
 export default {
   name: "Projects",
   data() {
     return {
       destinations: sourceData.destinations,
     };
+  },
+  setup() {
+    useHead({
+      title: "Projects | Aydid Hasan",
+      meta: [
+        {
+          name: "title",
+          content: "Projects | Aydid Hasan",
+        },
+        {
+          name: "description",
+          content: "Projects Page of Aydid Hasan's Portfolio.",
+        },
+        {
+          property: "og:description",
+          content: "Projects Page of Aydid Hasan's Portfolio.",
+        },
+        { property: "og:image", content: `summary_large_image` },
+        { name: "twitter:card", content: `summary_large_image` },
+      ],
+    });
   },
 };
 </script>

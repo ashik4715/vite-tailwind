@@ -260,13 +260,13 @@ import HelloWorld from "@src/components/HelloWorld.vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { useDark, useToggle } from "@vueuse/core";
+
 export default {
   components: {
     HelloWorld,
   },
   setup() {
     const showRouterView = ref(false);
-
     return {
       showRouterView,
     };

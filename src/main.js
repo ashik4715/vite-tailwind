@@ -4,4 +4,7 @@ import "./assets/css/typography.css";
 import App from "./App.vue";
 import router from "./router/router";
 
-createApp(App).use(router).mount("#app");
+import { createHead } from "unhead";
+const head = createHead();
+
+createApp(App).use(router).use(head).mount("#app");

@@ -83,8 +83,30 @@
   </div>
 </template>
 <script>
+import { useHead } from "unhead";
 export default {
   name: "Contact",
+  setup() {
+    useHead({
+      title: "Contact | Aydid Hasan",
+      meta: [
+        {
+          name: "title",
+          content: "Contact | Aydid Hasan",
+        },
+        {
+          name: "description",
+          content: "Contact Page of Aydid Hasan's Portfolio.",
+        },
+        {
+          property: "og:description",
+          content: "Contact Page of Aydid Hasan's Portfolio.",
+        },
+        { property: "og:image", content: `summary_large_image` },
+        { name: "twitter:card", content: `summary_large_image` },
+      ],
+    });
+  },
 };
 </script>
 <style scoped></style>
