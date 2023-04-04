@@ -13,7 +13,10 @@
               class="border rounded p-4 shadow-md hover:shadow-lg"
               @click="showModal(destination)"
             >
-              <img :src="destination.imageSrc" class="w-full cursor-pointer" />
+              <img
+                :src="`/images/${destination.image}`"
+                class="w-full cursor-pointer"
+              />
               <div class="text-lg font-medium mt-2">{{ destination.name }}</div>
               <div class="text-sm text-gray-400 mt-2">
                 {{ destination.short_description }}

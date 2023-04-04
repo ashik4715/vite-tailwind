@@ -39,7 +39,7 @@
           >
           <router-link
             class="text-lg font-semibold leading-7 text-gray-900 dark:text-white hover:text-emerald-500 dark:hover:text-rose-500"
-            to="/projects"
+            to="/new-projects"
             >Projects</router-link
           >
         </div>
@@ -110,7 +110,7 @@
                 >
                 <router-link
                   class="-mx-3 block rounded-lg py-2 px-3 text-lg font-semibold leading-7 text-gray-900 dark:text-white hover:bg-slate-400"
-                  to="/projects"
+                  to="/new-projects"
                   >Projects</router-link
                 >
                 <router-link
@@ -166,7 +166,7 @@
         </div>
         <div class="px-5 py-2">
           <router-link
-            to="/projects"
+            to="/new-projects"
             class="text-lg leading-6 text-white hover:text-cyan-300 dark:hover:text-pink-500"
             >Projects</router-link
           >
